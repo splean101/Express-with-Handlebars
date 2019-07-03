@@ -1,0 +1,12 @@
+Создайте представление для движка Handlebars, которое визуализирует объекты типа Person. 
+Другими словами, объекты типа Person будут моделью для данного представления.
+class Person {
+   constructor(firstName, lastName, post, salary, age, experience) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.post = post;
+      this.salary = salary;
+      this.age = age;
+      this.experience = experience;
+   }
+}
